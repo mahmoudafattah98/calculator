@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(12, 12, 12);
+  /* height: 200vh; */
+}
+div {
+  display: inline-block;
+}
+.calculator {
+  width: 430px;
+  transition: 1s;
+}
+.expressionInput {
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 400px;
+  height: 80px;
+  background-color: rgb(162, 187, 207);
+  font-size: x-large;
+  color: rgb(12, 12, 12);
+  border: 15px;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+}
+
+.expressionInput::-webkit-input-placeholder {
+  color: rgb(12, 12, 12);
+}
+
+.textArea {
+  width: 430px;
+}
+
+.numButton {
+  background-color: rgb(32, 91, 122);
+  border: none;
+}
+
+.controls {
+  width: 100px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+.controls button {
+  width: 80px;
+  height: 80px;
+  font-size: x-large;
+  margin: 10px 10px;
+  border-radius: 30px;
+}
+
+.operandButton {
+  background-color: rgb(20, 47, 68);
+  border: none;
+}
+
+.inputs button {
+  height: 80px;
+  border-radius: 30px;
+  font-size: x-large;
+  margin: 10px 10px;
+}
+.inputs {
+  margin-top: 5px;
+  width: 430px;
+  border: none;
+}
+.equalButton {
+  width: 190px;
+  background-color: rgb(20, 47, 68);
+  border: none;
+}
+.clearButton {
+  background-color: rgb(183, 82, 10);
+  border: none;
+  width: 190px;
+}
+.clearButton:hover {
+  background-color: rgb(183, 82, 10);
+  border: none;
+}
+
+.numpad {
+  width: 300px;
+}
+
+.numpad button {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+  font-size: x-large;
+  margin: 10px 10px;
+}
+
+.delButton {
+  background-color: rgb(183, 82, 10);
+  border: none;
+  padding: 0px;
+}
+
+.delButton:hover {
+  background-color: rgb(188, 79, 0);
+}
+
+.numButton:hover {
+  background-color: rgb(29, 56, 73);
+}
+
+.operandButton:hover {
+  background-color: rgb(29, 56, 73);
+}
+
+.equalButton:hover {
+  background-color: rgb(29, 56, 73);
+}
+
+.calculator button:active {
+  border: none;
+  background-color: rgb(12, 12, 12);
+  outline: 0;
+}
